@@ -12,7 +12,7 @@ int main() {
     
     int arr[] = {34 , 8 , 59 , 21 , 77, 13};
     int n = sizeof(arr) / sizeof(arr[0]);
-    int target = 21;
+    int target = 21; 
     
     int result = linearSearch(arr, n, target);
 
